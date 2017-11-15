@@ -3,7 +3,7 @@
 error_reporting(0);
 
 //Prima
-
+echo "<b>Bilangan Prima</b><br>";
 function test1($n){
       for($a=1;$a<=$n;$a++){  
               $initPrima = 0; 
@@ -21,7 +21,7 @@ function test1($n){
 test1(7);
 
 //Fibbonaci
-
+echo "<br><b>Bilangan Fibbonaci</b><br>";
 function test2($fib){
 	$prev=0;
 	$now=1;
@@ -41,7 +41,7 @@ test2(5);
 echo "<br>";
 
 // Segitiga
-
+echo "<br><b>Segitiga</b><br>";
 function test3($bil){
 	For ($i=0; $i<= strlen($bil);$i++){       
 	echo $bil[$i];
